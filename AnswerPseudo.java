@@ -11,7 +11,7 @@ public class AnswerPseudo {
      */
     public static String generateRandom(String name){
 
-        int randomNo = 6 + (int)Math.round(Math.random()*10);
+        int randomNo = 6 + (int)(Math.random()*10);
 
         return name+" "+randomNo;
 
